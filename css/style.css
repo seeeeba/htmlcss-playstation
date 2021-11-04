@@ -10,8 +10,12 @@ body{
 }
 
 header{
+    top: 0;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 15px;
+    position: fixed;
+    width: 100%;
+    font-weight: 600;
 }
 
 ul{
@@ -96,3 +100,35 @@ header .navbar-container .row .col-4 ul li a img{
 /* END NAVBAR */
 
 /* END HEADER */
+
+/* START MAIN */
+main{
+    margin-top: 113px;
+}
+/* JUMBOTRON */
+._jumbotron{
+    position: relative;
+    background-image: url(../img/jumbo-bg.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.returnal{
+    position: absolute;
+
+}
+
+.returnal .returnal-img img{
+    min-width: 0;
+    height: 40px;
+}
+
+.returnal-infos{
+    width: 30%;
+    color:white;
+}
+/* END JUMBOTRON */
+/* END MAIN */

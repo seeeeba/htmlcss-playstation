@@ -11,6 +11,7 @@ body{
 
 header{
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
 }
 
 ul{
@@ -80,6 +81,17 @@ header .navbar-container .row .col-8 ul{
 header .navbar-container .row .col-4 ul li a img{
     height: 30px;
     color: #363636;
+}
+
+.burger{
+    text-align: right; 
+    color: #858686;
+}
+
+.burger i{
+    padding: 5px 10px;
+    border: 1px solid #858686;
+    border-radius: 3px;
 }
 /* END NAVBAR */
 

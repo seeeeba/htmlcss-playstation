@@ -1,7 +1,7 @@
 /* RULES */
 
 img{
-    max-width: 100%;
+    min-width: 100%;
 }
 
 body{
@@ -16,7 +16,7 @@ header{
 ul{
     list-style-type: none;
     display: flex;
-    /* margin-bottom: 0; */
+    margin: 10px;
 }
 
 a{
@@ -34,6 +34,8 @@ a{
 
 /* START HEADER */
 .sony-header{
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
     margin: auto;
     background-color: black;
@@ -43,8 +45,7 @@ a{
 }
 .sony-header img{
     height: 20px;
-    width: auto;
-    margin-right: 1%;
+    margin-right: 20px;
 }
 
 i{
@@ -68,6 +69,11 @@ header .navbar-container .row .col-4 ul li{
 header .navbar-container .row .col-4 ul{
     justify-content: flex-end;
 }
+header .navbar-container .row .col-8 ul{
+    justify-content: flex-start;
+    padding-left: 0;
+}
+
 .navbar-container{
     background-color: white;
 }

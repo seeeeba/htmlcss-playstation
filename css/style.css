@@ -1,11 +1,51 @@
+/* RULES */
+
 img{
     max-width: 100%;
 }
 
 body{
     font-family: Arial, sans-serif;
+    background-color: aquamarine;
 }
 
 header{
     font-family: Helvetica, Arial, sans-serif;
 }
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* .col-8{
+    display: flex;
+} */
+/* END RULES */
+
+/* START HEADER */
+.sony-header{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    text-align: right;
+    padding: 10px 0;
+    
+}
+.sony-header img{
+    height: 20px;
+    margin-right: 1%;
+}
+
+header .navbar-container .row .col-7 ul li{
+    padding: 0 10px;
+    vertical-align: middle;
+}
+
+
+/* END HEADER */

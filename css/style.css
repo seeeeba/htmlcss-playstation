@@ -36,6 +36,10 @@ a{
     background-color: #363636;
 }
 
+.white{
+    color: white;
+}
+
 /* END RULES */
 
 /* START HEADER */
@@ -233,4 +237,22 @@ main{
     color: white;
     font-size: 45px;
     margin-bottom: 20px;
+}
+
+/* Nuove uscite */  
+
+.new-reveals{
+    background-color: #1f1f1f;
+    padding: 50px 0;
+}
+
+.img-box img{
+    border-radius: 30px;
+}
+
+.img-box p{
+    margin-top: 5px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 50px;
 }

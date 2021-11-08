@@ -18,12 +18,12 @@
                 <img src="img/sony_logo.svg" alt="logo sony">
             </div>
         </div>    
-        <div class="navbar-container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-8 d-flex align-items-center">
                     <a href="" class="d-block"><img src="img/play_logo.svg" alt="playstation logo"></a>
 
-                    <ul class="d-none d-lg-block">                        
+                    <ul class="d-none d-lg-flex">                        
                         <li><a href="#">Giochi <i class="fas fa-angle-down"></i></a></li>
                         <li><a href="#">Hardware <i class="fas fa-angle-down"></i></a></li>
                         <li><a href="#">Servizi <i class="fas fa-angle-down"></i></a></li>
@@ -34,8 +34,8 @@
                                           
                 </div>
 
-                <div class="col-4 d-none d-lg-block d-flex">
-                    <ul class="d-none d-lg-block">
+                <div class="col-4 d-none d-lg-block">
+                    <ul class="d-none d-lg-flex">
                         <li><a href="#">My Playstation</a></li>
                         <li><a href="#"><button type="button" class="btn btn-secondary">Accedi</button></a></li>
                         <li><a href="#"><img src="img/lens.svg" alt="lente"></a></li>
@@ -48,23 +48,151 @@
         
     </header>
 
+
     <main>
-        <div class="_jumbotron">
-            <div class="returnal container">
-
-                <div class="returnal-img">
-                    <img src="img/returnal-hero-banner-logo.png" alt="Returnal name">
-                </div>      
-
-                <div class="returnal-infos">
-                    <h3>Rompi il cerchio</h3>
-                    <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+        <div class="jumbo">
+            <div class="container">       
+                <div class="content-jumbo">
+                    <div class="returnal-img">
+                        <img src="img/returnal-hero-banner-logo.png" alt="Returnal logo">
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8 col-lg-4">
+                            <div class="box">
+                                <h1 id="titolo-jumbo">Rompi il cerchio</h1>
+                                <div class="paragrafo-jumbo">
+                                    <p>
+                                        Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5
+                                    </p>
+                                </div>
+                                <div class="btn btn-link buy-now">
+                                    <a href="https://www.playstation.com/it-it/?emcid=pa-co-422259&gclid=CjwKCAjwiY6MBhBqEiwARFSCPibs7FIK_mCGqEJ9eqo8-BbjHbvE8gyIPD7UFgm3TapbREefu66MtRoCAnsQAvD_BwE&gclsrc=aw.ds" target="_blank">Aquista ora</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
                 </div>
-                
+            </div>
+        </div>
+
+        <!-- 6 colonne giochi -->
+        <div class="container">
+            <div class="box-row">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="img-list-container">
+                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                        <div class="img-list-container">
+                            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                        <div class="img-list-container">
+                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                        <div class="img-list-container">
+                            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                        <div class="img-list-container">
+                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                        <div class="img-list-container">
+                            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Play 5  text-->
+            <div class="row">
+                <div class="col-12">
+                    <div class="box-play-text">
+                        <span>Play has no limits</span>
+                        <h2>Ecco la PlayStation 5</h2>
+                        <span>Tuffati in nuove possibilità di gioco completamente inaspettate</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row-distance row">
+                <div class="col-12 col-sm-12 col-md-6">
+                    <div class="box-play-text-2">
+                        <h2>Console PlayStation 5</h2>
+                        <span>Sperimenta la nuova generazione di incredibili giochi PlayStation</span>
+                        <div class="bottone btn btn-primary">
+                            Maggiori informazioni
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6">
+                    <div class="box">
+                        <img src="img/playstation-5-thumb.png" alt="ps5 img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- oggetti playstation 5 -->
+            <div id="tools-ps" class="row justify-content-lg-between justify-content-md-between justify-content-sm-start">
+                <div class="col-4 col-md-2">
+                    <div class="selected-ps box">
+                        <img src="img/playstation-5-thumb.png" alt="">
+                        <span class="d-none d-md-block">Console PS5</span>
+                    </div>
+                    
+                </div>
+
+                <div class="col-4 col-md-2">
+                    <div class="box opacity-img">
+                        <img src="img/joypad-thumb.png" alt="">
+                        <span class="d-none d-md-block">Controller wireless DualSense</span>
+                    </div>
+                    
+                </div>
+
+                <div class="col-4 col-md-2">
+                    <div class="box opacity-img">
+                        <img src="img/headset-thumb.png" alt="">
+                        <span class="d-none d-md-block">Cuffie wireless con microfono Pluse 3</span>
+                    </div>
+                    
+                </div>
+
+                <div class="col-4 col-md-2">
+                    <div class="box opacity-img">
+                        <img src="img/remote-thumb.png" alt="">
+                        <span class="d-none d-md-block">Telecomando Media</span>
+                    </div>
+                    
+                </div>
+
+                <div class="col-4 col-md-2">
+                    <div class="box opacity-img">
+                        <img src="img/camera-thumb.jpg" alt="">
+                        <span class="d-none d-md-block">Telecamera HD</span>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     </main>
+    <!-- END MAIN -->
 
+    
     <footer>
 
     </footer>

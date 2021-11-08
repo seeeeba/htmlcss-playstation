@@ -1,18 +1,19 @@
 /* RULES */
 
 img{
-    min-width: 100%;
+    width: 100%;
 }
 
 body{
     font-family: Arial, sans-serif;
-    background-color: aquamarine;
 }
 
 header{
+    z-index: 2;
     top: 0;
+    left: 0;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     position: fixed;
     width: 100%;
     font-weight: 600;
@@ -61,28 +62,29 @@ i{
 
 /* NAVBAR */
 
-header .navbar-container .row .col-8 ul,
-header .navbar-container .row .col-4 ul{
+header .container-fluid .row .col-8 ul,
+header .container-fluid .row .col-4 ul{
     display: flex;
     line-height: 50px;  
 }
 
-header .navbar-container .row .col-8 ul li,
-header .navbar-container .row .col-4 ul li{
+header .container-fluid .row .col-8 ul li,
+header .container-fluid .row .col-4 ul li{
     padding: 0 10px;
 }
-header .navbar-container .row .col-4 ul{
+header .container-fluid .row .col-4 ul{
     justify-content: flex-end;
 }
-header .navbar-container .row .col-8 ul{
+header .container-fluid .row .col-8 ul{
     justify-content: flex-start;
     padding-left: 0;
 }
 
-.navbar-container{
+.container-fluid{
     background-color: white;
 }
-header .navbar-container .row .col-4 ul li a img{
+
+header .container-fluid .row .col-4 ul li a img{
     height: 30px;
     color: #363636;
 }
@@ -97,38 +99,114 @@ header .navbar-container .row .col-4 ul li a img{
     border: 1px solid #858686;
     border-radius: 3px;
 }
-/* END NAVBAR */
 
-/* END HEADER */
-
-/* START MAIN */
+/* MAIN */
 main{
-    margin-top: 113px;
+    margin-top: 90px;
 }
-/* JUMBOTRON */
-._jumbotron{
+.jumbo{
     position: relative;
     background-image: url(../img/jumbo-bg.png);
-    width: 100%;
-    height: 600px;
     background-repeat: no-repeat;
-    background-position:center;
     background-size: cover;
+    background-position: center;
+}
+.returnal-img{
+    width: 270px;
+    margin-bottom: 40px;
+}
+#titolo-jumbo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 40px;
+}
+.paragrafo-jumbo{
+    font-weight: bold;
+    color: white;
+    margin-bottom: 40px;
+}
+.buy-now{
+    color: white;
+    background-color: orangered;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.buy-now a{
+    color: white;
+    background-color: orangered;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.content-jumbo{
+    padding-top: 350px;
+    padding-bottom: 30px;
+}
+/* lista giochi main */
+
+.img-list-container img{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.box-row{
+    padding-top: 30px;
 }
 
-.returnal{
-    position: absolute;
-
+/* playstation testo */
+.box-play-text{
+    text-align: center;
+}
+.box-play-text :first-child{
+    font-weight: bold;
+    color: #0072ce;
+}
+.box-play-text h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.box-play-text :last-child{
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+/* testo 2 */
+.row-distance{
+    margin-top: 100px;
+}
+.box-play-text-2{
+    margin-top: 100px;
+}
+.box-play-text-2 h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+    display: inline;
+}
+.box-play-text-2 span{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    margin-top: 20px;
+}
+.bottone{
+    margin-top: 30px;
+    border-radius: 30px;
 }
 
-.returnal .returnal-img img{
-    min-width: 0;
-    height: 40px;
+/* list tools ps5 */
+.selected-ps{
+    border-bottom: 3px solid #0072ce;
+}
+#tools-ps .col-4 .selected-ps{
+    padding-bottom: 25px;
+}
+#tools-ps span{
+    font-weight: bold;
+}
+#tools-ps{
+    text-align: center;
+}
+.opacity-img{
+    opacity: 0.7;
 }
 
-.returnal-infos{
-    width: 30%;
-    color:white;
-}
-/* END JUMBOTRON */
-/* END MAIN */

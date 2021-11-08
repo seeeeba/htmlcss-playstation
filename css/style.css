@@ -40,6 +40,19 @@ a{
     color: white;
 }
 
+.gray{
+ color: gray;
+}
+
+.blue-btn{
+    background-color: #2d64e6;
+}
+
+.blue-btn:hover{
+    background-color: #2b4fa3
+}
+
+
 /* END RULES */
 
 /* START HEADER */
@@ -172,7 +185,6 @@ main{
 .box-play-text :last-child{
     font-size: 20px;
     font-weight: bold;
-    color: gray;
 }
 /* testo 2 */
 .row-distance{
@@ -190,7 +202,6 @@ main{
     display: block;
     font-size: 20px;
     font-weight: bold;
-    color: gray;
     margin-top: 20px;
 }
 .bottone{
@@ -223,6 +234,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: 40px;
 }
 
 .content-takestwo{
@@ -256,3 +268,29 @@ main{
     font-size: 18px;
     margin-bottom: 50px;
 }
+
+/* esplora ps4 */
+
+.explore-ps4{
+    margin-top: 100px;
+}
+
+.col-12 h2{
+    font-size: 45px;
+}
+
+.col-12 p{
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.content-explore h4{
+    font-size: 30px;
+}
+
+.content-explore p{
+    font-size: 20px;
+    color: grey;
+}
+
+

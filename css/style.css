@@ -34,14 +34,15 @@ a{
     border: 1px solid none;
     border-radius: 50px;
     background-color: #363636;
+    border: none;
 }
 
 .white{
     color: white;
 }
 
-.gray{
- color: gray;
+.grey{
+ color: grey;
 }
 
 .blue-btn{
@@ -272,7 +273,7 @@ main{
 /* esplora ps4 */
 
 .explore-ps4{
-    margin-top: 100px;
+    padding: 80px 0;
 }
 
 .col-12 h2{
@@ -293,4 +294,37 @@ main{
     color: grey;
 }
 
+/* playstation plus */
 
+.playstation-plus{
+    background-color: #bebcbb;
+}
+
+.content-psplus a{
+    background-color: #d9dadc;
+    color: #0072ce; 
+    margin: 40px 0 20px 0;
+}
+
+.content-psplus img{
+    margin: 100px 0 40px 0;
+    width: 60%;
+}
+
+.content-psplus p{
+    font-size: 15px;
+}
+
+/* conti playstore */
+
+.sconti-playstore{
+    margin-bottom: 70px;
+}
+
+.content-sconti{
+    margin: 80px 0;
+}
+
+.sconti-playstore .container .row div img{
+    margin-bottom: 10px;
+}

@@ -328,3 +328,35 @@ main{
 .sconti-playstore .container .row div img{
     margin-bottom: 10px;
 }
+
+/* playstation Now */
+
+.playstation-now{
+    background-color: #161c3b;
+}
+
+.playstation-now img{
+    margin: 25% 0 20px 0;
+    width: 60%;
+}
+
+@media screen and (max-width: 768px){
+    .playstation-now img{
+        margin: 5% 0 20px 0;
+    }
+}
+
+.content-now p{
+    font-size: 15px;
+}
+
+.content-now a{
+    background-color: #f5f5f5;
+    color: #000000; 
+    margin: 10px 0 20px 0;
+}
+
+.content-now-img img{
+    width: 100%;
+    margin-top: 0;
+}
